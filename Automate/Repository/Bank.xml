@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bank>
+	<BankManagerLogin>
+		<identifier>xpath</identifier>
+		<Element>//button[contains(text(),'Bank Manager Login')]</Element>
+	</BankManagerLogin>
+
+
+
+	<AddCustomer>
+		<identifier>xpath</identifier>
+		<Element>//button[contains(text(),'Add Customer')]</Element>
+	</AddCustomer>
+
+	<fName>
+		<identifier>xpath</identifier>
+		<Element>//input[@ng-model='fName']</Element>
+	</fName>
+
+	<lName>
+		<identifier>xpath</identifier>
+		<Element>//input[@ng-model='lName']</Element>
+	</lName>
+
+
+	<postCd>
+		<identifier>xpath</identifier>
+		<Element>//input[@ng-model='postCd']</Element>
+	</postCd>
+
+	<submitCust>
+		<identifier>xpath</identifier>
+		<Element>//button[contains(text(),'Add Customer')][@type='submit']
+		</Element>
+	</submitCust>
+
+
+</Bank>
+
+
+
+		
